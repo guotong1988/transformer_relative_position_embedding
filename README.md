@@ -1,4 +1,5 @@
-# 调用方式
+# Relative Position Representations
+## 调用方式
 ```python
 # return [batch_size, sequence_len, hidden_size]
 multihead_attention(
@@ -12,4 +13,6 @@ multihead_attention(
     dropout_rate=0.1,
     max_relative_position=10)
 ```
-# TensorFlow版本 1.14 or 1.15
+## TensorFlow版本 1.14 or 1.15
+## Reference
+https://github.com/tensorflow/tensor2tensor

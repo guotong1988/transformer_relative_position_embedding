@@ -12,3 +12,4 @@ multihead_attention(
     dropout_rate=0.1,
     max_relative_position=10)
 ```
+# TensorFlow版本 1.14 or 1.15
